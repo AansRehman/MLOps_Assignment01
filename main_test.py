@@ -23,5 +23,5 @@ def test_predict(client):
     assert response.json['prediction'] == 'Negative'\
 
 
-print ("Hello World")
+# print ("Hello World")
 print("Aans")
