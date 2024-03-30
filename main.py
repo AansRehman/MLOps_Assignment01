@@ -13,6 +13,7 @@ def predict_diabetes(row):
     prediction = model.predict([row])
     return 'Positive' if prediction[0] == 1 else 'Negative'
 
+
 # Define the Flask endpoint
 @app.route('/predict', methods=['POST'])
 def predict():
