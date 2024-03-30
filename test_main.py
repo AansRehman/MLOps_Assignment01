@@ -20,5 +20,5 @@ def test_predict(client):
     }
     response = client.post('/predict', json=json_data)
     assert response.status_code == 200
-    assert response.json['prediction'] == 'Negative'\
-
+    assert response.json['prediction'] == 'Negative'
+    print(response)
