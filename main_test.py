@@ -22,6 +22,3 @@ def test_predict(client):
     assert response.status_code == 200
     assert response.json['prediction'] == 'Negative'\
 
-
-# print ("Hello World")
-print("Aans")
