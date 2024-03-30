@@ -20,7 +20,7 @@ jobs:
 
       - name: Install dependencies
         run: |
-          pip install pytest flask pandas
+          pip install pytest flask pandas pickle4
 
       - name: Run tests
         run: |
